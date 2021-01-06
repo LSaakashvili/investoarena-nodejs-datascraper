@@ -7,5 +7,5 @@ app.use('/', Router);
 
 app.listen(process.env.PORT || 5500, (err) => {
     if (err) throw err;
-    console.log("Server is running on 4000");
+    console.log("Server is running on 4000")
 })
