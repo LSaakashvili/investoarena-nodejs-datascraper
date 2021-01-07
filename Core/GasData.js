@@ -41,8 +41,6 @@ const GasData = async(req, res) => {
     }, {
         name:"Uranium",
         price:$naturalgas('.push-data')[40].children[0].data,
-        ch:$naturalgas('.push-data')[41].children[0].data,
-        chp:$naturalgas('.push-data')[42].children[0].data,
         data:$naturalgas('.push-data')[43].children[0].data,
     }, {
         name:"Oil WTI",
